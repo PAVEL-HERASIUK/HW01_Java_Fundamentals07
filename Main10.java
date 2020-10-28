@@ -26,7 +26,7 @@ public class Main10 {
 	public static void lineMas(int[][] mas, int k) {
 		System.out.println();
 		int a;
-		for (int i = 0; i < mas.length - 1; i++) {    //здесь был (+) в length+1 и выдавало ошибку выходза пределы индекса массива
+		for (int i = 0; i < mas.length - 1; i++) {    //здесь был (+) в length+1 и выдавало ошибку выхода за пределы индекса массива
 			a = mas[k - 1][i];
 			System.out.printf("% 3d ", a);
 		}
